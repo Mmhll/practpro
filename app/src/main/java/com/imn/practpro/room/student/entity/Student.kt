@@ -21,6 +21,8 @@ data class Student(
     @ColumnInfo
     val speciality : String,
     @ColumnInfo
+    var vacancies : String = "",
+    @ColumnInfo
     val email : String,
     @ColumnInfo
     val password : String
